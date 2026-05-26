@@ -1,0 +1,28 @@
+
+This project is a simple ATM system developed using Python. The system allows users to log in using a PIN with a maximum of three attempts. After successful authentication, users can access a menu with several banking functions.
+
+The available functions include checking account balance, depositing money, withdrawing money, changing the PIN, and exiting the system. The program ensures that invalid inputs are handled properly using error checking.
+
+Additionally, the system uses file handling to store the PIN and account balance in a text file. This allows the data to be saved and reused even after the program is closed.
+
+The project demonstrates the use of loops, conditional statements, functions, and file operations in Python to simulate a real-world banking system.
+
+
+                                        START
+                                            ↓
+                                        Enter PIN
+                                            ↓
+                                        Correct PIN? ---- No → Increase attempt → Max reached? → End
+                                            ↓ Yes
+                                        Show Menu
+                                            ↓
+                                        User Choice
+                                        ├── 1 → Show Balance
+                                        ├── 2 → Deposit Money
+                                        ├── 3 → Withdraw Money
+                                        ├── 4 → Change PIN
+                                        └── 5 → Save & Exit
+                                            ↓
+                                        Back to Menu
+                                            ↓
+                                        END

@@ -1,0 +1,13 @@
+
+Easy
+    Notes app
+    Shopping list saver
+    Password saver (local only)
+Medium
+    Expense tracker
+    Student record system
+    Quiz game
+Fun
+    Text adventure game
+    Simple RPG inventory
+    Habit tracker
